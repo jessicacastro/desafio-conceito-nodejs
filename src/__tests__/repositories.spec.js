@@ -95,7 +95,7 @@ describe("Repositories", () => {
       });
 
     expect(response.body).toMatchObject({
-      likes: 1
+      likes: 0
     });
   });
 
